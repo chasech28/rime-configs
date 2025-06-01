@@ -1,0 +1,5 @@
+# 注意，一个文件中只能有一个 patch
+patch:
+  schema_list:
+    # 激活下列输入方案
+    - schema: double_pinyin         # 自然码双拼

@@ -1,0 +1,5 @@
+# 忽略所有文件
+*
+# 自定义文件
+!*.custom.yaml
+!.gitignore
