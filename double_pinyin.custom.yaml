@@ -11,3 +11,8 @@ patch:
   "translator/contextual_suggestions": true
   "translator/max_homophones": 7
   "translator/max_homographs": 7
+
+  key_binder:
+    bindings:
+      - { when: has_menu, accept: Control+period, toggle: ascii_punct } # 切换中/西文标点
+

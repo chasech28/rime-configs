@@ -3,3 +3,6 @@ patch:
   schema_list:
     # 激活下列输入方案
     - schema: double_pinyin         # 自然码双拼
+  key_binder:
+    bindings:
+      - { when: has_menu, accept: Control+period, toggle: ascii_punct } # 切换中/西文标点
